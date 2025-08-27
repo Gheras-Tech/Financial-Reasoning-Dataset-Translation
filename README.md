@@ -4,6 +4,8 @@ This project provides a modular and resumable Python script to translate [financ
 1. **Translate:** Process a dataset in batches, save checkpoints, and create a final consolidated `.jsonl` file.
 2. **Upload:** Push the final `.jsonl` file to the Hugging Face Hub with flexible repository targeting.
 
+**You can download the translated dataset from [here](https://huggingface.co/datasets/Gheras/Financial_Reasoning_QA_Arabic_Dataset)**
+
 ## Features
 
 - **Modular:** Translation and uploading are separate, independent scripts.
