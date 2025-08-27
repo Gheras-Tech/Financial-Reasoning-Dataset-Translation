@@ -1,6 +1,6 @@
 # Financial Reasoning Dataset Translation using Gemini
 
-This project provides a modular and resumable Python script to translate financial reasoning datasets from English to Arabic using the Google Gemini API. The workflow is split into two main steps:
+This project provides a modular and resumable Python script to translate [financial reasoning datasets](https://huggingface.co/datasets/TheFinAI/Fino1_Reasoning_Path_FinQA) from English to Arabic using the Google Gemini API. The workflow is split into two main steps:
 1. **Translate:** Process a dataset in batches, save checkpoints, and create a final consolidated `.jsonl` file.
 2. **Upload:** Push the final `.jsonl` file to the Hugging Face Hub with flexible repository targeting.
 
