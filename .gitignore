@@ -7,6 +7,9 @@ venv/
 env/
 .env/
 
+# Environment variables file
+.env
+
 # Python cache and bytecode files
 __pycache__/
 *.pyc
