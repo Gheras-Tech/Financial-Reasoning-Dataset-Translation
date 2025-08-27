@@ -1,0 +1,46 @@
+# .gitignore
+
+# --- Python ---
+# Virtual environment folders
+venv/
+.venv/
+env/
+.env/
+
+# Environment variables file
+.env
+
+# Python cache and bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Project-Specific Output ---
+# Ignore the entire directory where translated data, checkpoints,
+# and the final Hugging Face dataset are saved. This is the
+# most important rule for this project.
+translated_data/
+
+# --- IDE and Editor Configurations ---
+# Visual Studio Code
+.vscode/
+# PyCharm
+.idea/
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# --- Operating System Files ---
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# --- Log files ---
+# Ignore any log files that might be generated.
+*.log
+logs/
